@@ -33,7 +33,7 @@ Administrator. It usually boils down to these three things:
     #2) Think before you type.
     #3) With great power comes great responsibility.
 
-┌──(root💀badmusk)-[/home/kali]
+┌──(root💀kali)-[/home/kali]
 └─# 
 
 ```
