@@ -3,6 +3,11 @@ Exploiting boundaries
 
 ## Steps to run
 
+Clone Repo
+```
+git clone https://github.com/umegbewe/polkit-vuln
+```
+
 Compile the exploit
 ```Shell
 gcc -Wall exploit.c -o exploit $(pkg-config --libs --cflags dbus-1)
